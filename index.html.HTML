@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Student Portfolio Directory</h1>
+
+  <form id="studentForm">
+    <input type="text" id="name" placeholder="Student Name" required />
+    <input type="text" id="father" placeholder="Father's Name" required />
+    <input type="text" id="mother" placeholder="Mother's Name" required />
+    <input type="text" id="address" placeholder="Address" required />
+    <input type="text" id="contact" placeholder="Contact No." required />
+    <input type="url" id="portfolio" placeholder="Portfolio URL" required />
+    <input type="file" id="photo" accept="image/*" required />
+    <button type="submit">Add Student</button>
+  </form>
+
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>Photo</th>
+        <th>Name</th>
+        <th>Father</th>
+        <th>Mother</th>
+        <th>Address</th>
+        <th>Contact</th>
+        <th>Portfolio</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Students will be added here -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
